@@ -22,7 +22,7 @@ body{
 #card{
 
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 6%;
     width: 30%;
     height: auto;
     border: 1px solid  #1F1F1F;
@@ -79,4 +79,31 @@ ul li:hover{
 
 ul li a:hover{
     color: black;
+}
+
+@media (max-width: 960px){
+
+    #card{
+        margin: 0 auto;
+        margin-top: 6%;
+        width: 50%;
+        height: auto;
+        border: 1px solid  #1F1F1F;
+        background-color: #1F1F1F;
+        border-radius: 5%;
+    }
+
+}
+@media (max-width: 565px){
+
+    #card{
+        margin: 0 auto;
+        margin-top: 6%;
+        width: 70%;
+        height: auto;
+        border: 1px solid  #1F1F1F;
+        background-color: #1F1F1F;
+        border-radius: 5%;
+    }
+
 }
