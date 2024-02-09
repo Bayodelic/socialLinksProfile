@@ -1,0 +1,82 @@
+@font-face {
+    font-family: texto;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background-color: #141414;
+}
+
+.texto{
+    font-family: texto;
+}
+
+.padding{
+    padding: 15px;
+}
+#card{
+
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 30%;
+    height: auto;
+    border: 1px solid  #1F1F1F;
+    background-color: #1F1F1F;
+    border-radius: 5%;
+}
+
+#profileInfo{
+    text-align: center;
+    margin-top: 5%;
+    padding: 5px;
+}
+
+img{
+    width: 150px;
+    border-radius: 100%;
+}
+
+#profileInfo h1{
+    color: white;
+}
+#profileInfo p{
+    color: white;
+}
+#profileInfo span{
+    color: #C4F82A;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    width: 93%;
+    padding: 15px;
+    justify-content: center;
+}
+
+ul li{
+    background-color: #333333;
+    border-radius: 10px;
+    width: 92%;
+    margin: 20px;
+}
+
+ul li:hover{
+    background-color: #C4F82A;
+    cursor: pointer;
+}
+
+ul li a:hover{
+    color: black;
+}
